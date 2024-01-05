@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labor Services</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #3498db;
+            padding: 10px;
+            text-align: center;
+        }
+        .top-banner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #9a3ce7;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }    
+        .scrolling-message {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .scrolling-message p {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            animation: marquee 5s linear infinite;
+        }
+        .search-button {
+            background: url('https://logowik.com/content/uploads/images/search7780.jpg') no-repeat left center;
+            background-size: 30px 30px; /* Adjust the size as needed */
+            background: #f4f4f4; /* Adjust the background color */
+            color: #858984;
+            padding: 10px 250px;
+            font-size: 25px;
+            border: 2px solid #fff; /* Adjust the border properties */
+            cursor: pointer;
+        }
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+/* Media query for mobile devices */
+        @media screen and (max-width: 600px) {
+            .top-banner {
+                padding: 5px; /* Adjust padding for smaller screens */
+                font-size: 12px; /* Adjust font size for smaller screens */
+            }
+            .search-button {
+                padding: 10px 15px; /* Adjust padding for smaller screens */
+                font-size: 14px; /* Adjust font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Labor Services</h1>
+        <button class="search-button">Procure aqui seu serviço</button>
+    </header>
+    <div class="top-banner scrolling-message">
+        <p>Promoções </p>
+    </div>
+
+    <!-- Your website content goes here -->
+
+</body>
+</html>
